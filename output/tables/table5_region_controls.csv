@@ -1,0 +1,7 @@
+Independent_Var,Model1_Coeff,Model4_Coeff,Model5_Coeff,Model5_SE
+New Jersey Dummy,2.28,-,-,-
+Initial Wage Gap,-,16.36,12.78,6.67
+Controls for Chain and Ownership,No,Yes,Yes,Yes
+Controls for Region,No,No,Yes,Yes
+Standard Error of Regression,8.71,8.68,8.66,8.66
+Number of Stores in Sample,351,351,351,351

@@ -1,0 +1,8 @@
+Independent_Var,Model1_Coeff,Model1_SE,Model2_Coeff,Model2_SE,Model3_Coeff,Model3_SE,Model4_Coeff,Model4_SE
+New Jersey Dummy,2.28,1.19,2.28,1.2,-,-,-,-
+Initial Wage Gap,-,-,-,-,17.05,6.09,16.36,6.24
+Controls for Chain and Ownership,No,No,Yes,Yes,No,No,Yes,Yes
+Controls for Region,No,No,No,No,No,No,No,No
+Standard Error of Regression,8.71,8.71,8.72,8.72,8.66,8.66,8.68,8.68
+P-value for Controls (nested F-test),-,-,0.4752,0.4752,-,-,0.6181,0.6181
+Number of Stores in Sample,351,351,351,351,351,351,351,351

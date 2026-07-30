@@ -1,0 +1,7 @@
+method,metric,value
+"Classic DiD (OLS, model5)",estimate,12.777320394432955
+"Classic DiD (OLS, model5)",std_error,6.670939645095499
+DML (Lasso),estimate,11.64186831447202
+DML (Lasso),std_error,6.982654486594308
+DML (XGBoost),estimate,11.678174253810088
+DML (XGBoost),std_error,6.8480064621889465
