@@ -1,6 +1,6 @@
 method,metric,value
-"Classic DiD (OLS, model5)",estimate,12.777320394432955
-"Classic DiD (OLS, model5)",std_error,6.670939645095499
+"Classic DiD (OLS, unified sample, HC1-robust)",estimate,14.10044169616841
+"Classic DiD (OLS, unified sample, HC1-robust)",std_error,7.1307867886345075
 DML (Lasso),estimate,11.64186831447202
 DML (Lasso),std_error,6.982654486594308
 DML (XGBoost),estimate,11.678174253810088
