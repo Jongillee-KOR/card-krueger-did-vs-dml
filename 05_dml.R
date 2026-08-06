@@ -6,10 +6,13 @@ source(here::here("00_setup.R"))
 #==================================================
 # 5.1. Load data
 #==================================================
-# Note: Uses the imputed/robustness sample (04), not the complete-case sample (03).
-# Rationale: Retains explicit missingness flags (e.g., _was_na) so ML models 
-# encode missingness as categories rather than dropping rows like lm() does, 
-# allowing us to utilize more observations than standard regressions.
+#Chose this sample because OLS (lm()) automatically drops observations with missing values, 
+#while DML can keep them by encoding "missing" as its own category.
+#We can use more of the data.
+# NOTE: 03_Classic_Did_Regression.R (section 3.7) now refits Classic DiD on
+# this exact sample with the same chain/co_owned "Missing"-category encoding,
+# so the method comparison in 06_Comparison.R is apples-to-apples on both
+# sample (N=370) and SE estimator (HC1-robust for both).
 data_path <- here("data", "estimation_sample_robustness_check.csv")
 if (!file.exists(data_path)) {
   stop("Could not find ", data_path, ". Run 04_sensitivity_imputation.R first.")
